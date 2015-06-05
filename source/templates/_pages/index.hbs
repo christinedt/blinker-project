@@ -1,20 +1,18 @@
-<header role="banner">
-  <h1>Site Name</h1>
-  <nav role="navigation">
-    <h1 class="visuallyhidden">Main Navigation</h1>
-  </nav>
+<header role='banner'>
+    <h1>Blinker</h1>
+    <a class="app-link" href='#'>Download the App</button>
 </header>
 
 
 <main class="main" role="main">
-  <h1>Main Content</h1>
-
-  {{>hoopla hoopla}}
+  {{>widget widget}}
+  {{>ratings ratings}}
+  {{>details details}}
 </main>
 
 
 <footer role="contentinfo">
-  <p>&copy; 2015 Company Name</p>
+  {{>main_footer}}
 </footer>
 
 <script data-main="js/main" src="js/libs/requirejs/require.js"></script>
