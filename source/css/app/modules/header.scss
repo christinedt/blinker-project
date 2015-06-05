@@ -1,0 +1,35 @@
+@import 'variables';
+
+.main-header {
+	background-color: $white;
+	overflow: auto;
+	padding: 10px 20px;
+	position: relative;
+	width: 100%;
+}
+
+.main-logo {
+	background-image: url('../../images/main-logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+  float: left;
+  height: 59px;
+  margin-left: 15px;
+  width: 150px;
+}
+
+.app-link {
+	background-color: #FF2247;
+	border-radius: 5px;
+  	color: $white;
+  	float: right;
+  	font-size: 0.9em;
+  	padding: 15px 35px;
+  	text-decoration: none;
+  	text-transform: uppercase;
+
+  	&:hover {
+  		background-color: #F51A3F;
+  	}
+}

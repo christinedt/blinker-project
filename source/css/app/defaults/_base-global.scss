@@ -34,10 +34,11 @@ html {
 html,
 body {
   @include selection($black, $white);
-  background: $white;
+  background: $brand-bg;
   height: 100%;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 img {
@@ -56,4 +57,8 @@ a {
   &:active {
     outline: 0;
   }
+}
+
+.ir span{
+  display: none;
 }
