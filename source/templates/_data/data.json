@@ -1,14 +1,13 @@
 {
-  "title": "CP+B Boilerplate",
-  "description" : "CP+B Boilerplate description",
-  "keywords": "CP+B Boilerplate keywords",
-  "hoopla": {
-    "tag": "section",
-    "heading": "Hoopla",
-    "image_src": "http://dummyimage.com/200x400/000/fff",
-    "image_award": "http://dummyimage.com/200x200/000/fff",
-    "image_url": "http://dummyimage.com/100x100/000/fff",
-    "body": "See the quick brown fox jump over the lazy dog!",
+  "title": "Blinker Test Project",
+  "widget": {
+    "name": "Shannon S.",
+    "location": "Denver, Colorado 80206",
+    "model": "2014 Jeep Wrangler",
+    "model_detail": "Rubicon 4x4",
+    "price": "32,500",
+    "monthly_price": "350",
+    "description": "You got a fast car. I want a ticket to anywhere. Maybe we make a deal. Maybe together we can get somewhere. Any place is better. Starting from zero got nothing to lose. Maybe we'll make something. Me myself I got nothing to prove.",
     "attr": {
       "id": "someid",
       "data-small": "small",

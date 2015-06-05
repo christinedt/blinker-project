@@ -1,0 +1,171 @@
+@import "variables";
+
+.main-widget {
+	box-sizing: border-box;
+	padding: 20px 25px;
+	width: 100%;
+}
+
+.widget-wrapper {
+	background-color: $white;
+	overflow: auto;
+}
+
+.widget-carousel {
+	background-image: url('../../images/shannon-s-jeep.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	padding-top: 45%;
+	position: relative;
+	width: 65%;
+}
+
+.widget-info {
+	background-color: $white;
+	float: left;
+	height: 100%;
+	padding: 25px 35px;
+	width: 35%;
+}
+
+.widget--header {
+	border-bottom: 2px solid $light-grey;
+	height: 100px;
+	margin-bottom: 5%;
+	overflow: auto;
+	padding: 0 20px;
+}
+
+.prof-pic-container {
+	display: inline-block;
+	float: left;
+	padding: 7px 0;
+	position: relative;
+}
+
+.widget--prof-pic {
+	background-image: url('../../images/shannon-s-prof.png');
+	border-radius: 50%;
+	box-shadow: 0 5px 2px 0 #ddd;
+	float: left;
+	height: 75px;
+	width: 75px;
+}
+
+.widget--prof-copy {
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+	padding: 10px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.name {
+	color: $dark-grey;
+	font-size: 1.5em;
+}
+
+.location {
+	color: $mid-grey;
+	font-size: 0.9em;
+}
+
+.model, .model-detail {
+	color: $mid-grey;
+	font-size: 1em;
+}
+
+.dollar {
+	font-size: 0.6em;
+	position: relative;
+	top: -11px;
+}
+
+.price {
+	color: #304a5b;
+	font-size: 2.6em;
+	line-height: 1.5em;
+}
+
+.monthly-price {
+	color: $mid-grey;
+	font-size: 0.9em;
+}
+
+.widget--explore-btn {  
+  border: 1px solid $brand-pink;
+  border-radius: 5px;
+  color: #FF2247;
+  display: block;
+  font-size: 1.3em;
+  margin: 20px auto;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+
+  &:active {
+  	background-color: $brand-pink;
+  	color: $white;
+  }
+}
+
+.copy-toggle {
+	border-bottom: 4px solid $light-grey;
+	color: $mid-grey;
+	float: left;
+	line-height: 50px;
+	margin-bottom: 5%;
+	text-align: center;
+	width: 50%;
+
+	&:hover {
+		color: $brand-pink;
+	}
+
+	&.selected {
+		border-bottom-color: $brand-pink;
+		color: $black;
+	}
+}
+
+.icon {
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+	z-index: 999;
+}
+
+.like.icon {
+	background-color: #666;
+	opacity: 0.6;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+
+	&:hover {
+		background-color: #3D3D3D;
+	}
+}
+
+.check.icon {
+	background-color: #5bf0a4;
+	position: absolute;
+	right: -5px;
+	top: 0;
+}
+
+.message.icon {
+	background-color: $light-grey;
+	float: right;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+
+	&:hover {
+		background-color: $brand-pink;
+	}
+}
