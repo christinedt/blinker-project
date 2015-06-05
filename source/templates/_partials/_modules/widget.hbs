@@ -1,8 +1,40 @@
-<section>
-    <div class="widget-carousel">
-      
+<section class="main-widget">
+	<div class="widget-wrapper">
+    <div class="widget-carousel grid-half">
+    	<div class="icon like"></div>
+    	<div class="back-button"></div>
+    	<div class="next-button"></div>
     </div>
     <div class="widget-info">
-      
+      <div class="widget--header">
+      	<div class="prof-pic-container">
+      		<div class="widget--prof-pic"></div>
+      		<div class="icon check"></div>
+      	</div>
+      	<div class="widget--prof-copy">
+      		<h3 class="name">{{name}}</h3>
+      		<p class="location">{{location}}</p>
+      	</div>
+      	<div class="icon message"></div>
+      </div>
+      <div class="widget--car-header">
+      	<h3 class="model">{{model}}</h3>
+      	<h4 class="model-detail">{{model_detail}}</h4>
+      	<h3 class="price"><span class="dollar">$</span>{{price}}</h3>
+      	<p class="monthly-price">Buy from {{name}} for only ${{monthly_price}} a month</p>
+      	<a class="widget--explore-btn" href="#"$>Explore Buying Options</a>
+      	<div class="widget--info-container">
+      		<div class="copy-toggle selected description">
+      			Description
+      		</div>
+      		<div class="copy-toggle test-drive">
+      			Test-Drive Location
+      		</div>
+      		<div class="copy-container">
+      			<p>{{description}}</p>
+      		</div>
+      	</div>
+      </div>
+    </div>
     </div>
 </section>
